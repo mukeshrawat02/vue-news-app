@@ -1,15 +1,15 @@
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Header extends Vue {
-   name: string = '';
-   enthusiasm: number = 1;
+  public name: string = "";
+  public enthusiasm: number = 1;
 
-  increment() {
+  public increment() {
     this.enthusiasm++;
-  };
+  }
 
-  decrement() {
+  public decrement() {
     if (this.enthusiasm > 1) {
       this.enthusiasm--;
     }
