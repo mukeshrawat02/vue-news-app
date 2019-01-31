@@ -2,7 +2,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Header extends Vue {
-  public name: string = "";
+  @Prop() public name!: string;
   public enthusiasm: number = 1;
 
   public increment() {
