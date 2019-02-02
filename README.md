@@ -1,6 +1,25 @@
-# vue-news-app
+# Vue News App
+A News Feed App with Vue 2. It is a simple client to pull news stories from the NewsAPI with the Axios library.
 
-## Project setup
+# Technology stack
+- [Vue JS](https://vuejs.org/v2/guide/) framework.
+- TypeScript
+- [NewsAPI](https://newsapi.org/)
+- Testing by using: 
+    - Jest (Unit testing)
+    - Nightwatch (E2E testing)
+
+# How to use
+
+```
+$ git clone https://github.com/mukeshrawat02/vue-news-app.git <project>
+$ cd <project>
+$ npm install
+```
+
+## Use one of the following to build and test:
+
+### Project setup
 ```
 npm install
 ```
@@ -34,6 +53,3 @@ npm run test:e2e
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
