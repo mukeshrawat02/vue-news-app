@@ -1,6 +1,11 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
+import Menu from "../menu/Menu";
 
-@Component
+@Component({
+  components: {
+    Menu
+  }
+})
 export default class Header extends Vue {
   @Prop() public name!: string;
   public enthusiasm: number = 1;
