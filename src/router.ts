@@ -16,11 +16,6 @@ export default new Router({
       path: "/news/:topic",
       component: News,
       props: true
-    },
-    {
-      path: "/about",
-      name: "about",
-      component: () => import("./components/about/About.vue")
     }
   ]
 });
