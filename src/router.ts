@@ -13,7 +13,7 @@ export default new Router({
       component: Home
     },
     {
-      path: "/news/:filter",
+      path: "/news/:topic",
       component: News,
       props: true
     },

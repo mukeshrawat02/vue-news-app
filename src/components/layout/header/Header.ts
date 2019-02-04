@@ -6,17 +6,4 @@ import Menu from "../menu/Menu";
     Menu
   }
 })
-export default class Header extends Vue {
-  @Prop() public name!: string;
-  public enthusiasm: number = 1;
-
-  public increment() {
-    this.enthusiasm++;
-  }
-
-  public decrement() {
-    if (this.enthusiasm > 1) {
-      this.enthusiasm--;
-    }
-  }
-}
+export default class Header extends Vue {}
