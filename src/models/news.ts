@@ -1,3 +1,21 @@
-export class NewsDTO {
-  constructor(public id: number, public name: string, public saying: string) {}
+export interface NewsDto {
+  status: string;
+  totalResults: number;
+  articles: Article[];
+}
+
+export interface Article {
+  source: Source;
+  author: string;
+  title: string;
+  description: string;
+  url: string;
+  urlToImage: string;
+  publishedAt: Date;
+  content: string;
+}
+
+export interface Source {
+  id: string;
+  name: string;
 }
