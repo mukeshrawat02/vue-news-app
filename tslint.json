@@ -12,6 +12,8 @@
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
     "trailing-comma": false,
-    "member-access": false
+    "member-access": false,
+    "no-console": false,
+    "arrow-parens": false
   }
 }
