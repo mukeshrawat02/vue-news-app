@@ -11,11 +11,19 @@ A News Feed App with Vue 2. It is a simple client to pull news stories from the 
 
 # How to use
 
+## Download / Clone Repository
 ```
 $ git clone https://github.com/mukeshrawat02/vue-news-app.git <project>
 $ cd <project>
 $ npm install
 ```
+
+## API Key configuration
+
+* Get API Key from NewsAPI.org
+* Go To Repository Folder.
+* Put API Key in Config folder, ```src\config\index.ts``` file.
+
 
 ## Use one of the following to build and test:
 
