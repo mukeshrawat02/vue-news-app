@@ -61,3 +61,6 @@ npm run test:e2e
 ```
 npm run test:unit
 ```
+
+## Screenshot
+![Alt text](/screenshot-vue-news-app.PNG?raw=true "World News Page")
