@@ -14,6 +14,11 @@ export default class News extends Vue {
   selectedNews: Article | null = null;
   articles: Article[] = [];
 
+  constructor() {
+    super();
+    this.getNews();
+  }
+
   @Watch("topic") onRouteChange(currentValue: string, oldValue: string) {
     if (currentValue !== oldValue) {
       this.getNews();

@@ -1,8 +1,7 @@
-export const prefix =
-  process.env.NODE_ENV === "production" ? "/vue-news/" : "/";
+export const prefix = "/";
 
 export default {
-  newsApiKey: "--your-key---",
+  newsApiKey: "---your key---------",
   newsApiUrl: "https://newsapi.org/v2/top-headlines",
   menuOptions: [
     {

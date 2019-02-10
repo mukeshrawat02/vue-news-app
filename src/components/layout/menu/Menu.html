@@ -1,7 +1,7 @@
 <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-        <div v-for="item in menuItems"  class="p-2 text-muted">
-            <router-link :to="item.path">{{item.name}}</router-link>
+        <div v-for="item in menuItems">
+            <router-link :to="item.path" class="p-2 text-muted">{{item.name}}</router-link>
         </div>
     </nav>
 </div>
