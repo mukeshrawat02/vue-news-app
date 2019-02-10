@@ -1,20 +1,23 @@
 import Vue from "vue";
-import Router from "vue-router";
+import VueRouter from "vue-router";
 
 import Home from "./components/home/Home.vue";
 import News from "./components/news/News.vue";
 
-Vue.use(Router);
+Vue.use(VueRouter);
 
-export default new Router({
+export const prefix =
+  process.env.NODE_ENV === "production" ? "/vue-news/" : "/";
+
+export default new VueRouter({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: `${prefix}`,
       component: Home
     },
     {
-      path: "/news/:topic",
+      path: `${prefix}news/:topic`,
       component: News,
       props: true
     }
