@@ -19,7 +19,11 @@ module.exports = {
     'jest-serializer-vue'
   ],
   testMatch: [
-    '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
+    "**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec).[jt]s?(x)"
+  ],
+  coveragePathIgnorePatterns: [
+    "/node_modules/",
+    "/.*\\.vue$"
   ],
   testURL: 'http://localhost/',
   globals: {
