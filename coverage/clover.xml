@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1550013354265" clover="3.2.0">
-  <project timestamp="1550013354265" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1550014999150" clover="3.2.0">
+  <project timestamp="1550014999150" name="All files">
+    <metrics statements="35" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="1" elements="44" coveredelements="7" complexity="0" loc="35" ncloc="35" packages="6" files="6" classes="6">
+      <package name="components.layout.header">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="Header.ts" path="H:\Projects\GitHub\vue-news-app\src\components\layout\header\Header.ts">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="components.layout.menu">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="Menu.ts" path="H:\Projects\GitHub\vue-news-app\src\components\layout\menu\Menu.ts">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="components.news">
+        <metrics statements="15" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="News.ts" path="H:\Projects\GitHub\vue-news-app\src\components\news\News.ts">
+          <metrics statements="15" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="components.news-item">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="News-Item.ts" path="H:\Projects\GitHub\vue-news-app\src\components\news-item\News-Item.ts">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="root">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="App.ts" path="H:\Projects\GitHub\vue-news-app\src\root\App.ts">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="services">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="news.service.ts" path="H:\Projects\GitHub\vue-news-app\src\services\news.service.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
   </project>
 </coverage>

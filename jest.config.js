@@ -21,6 +21,13 @@ module.exports = {
   testMatch: [
     "**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec).[jt]s?(x)"
   ],
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/services/*.{ts,vue}',
+    'src/components/**/*.{ts,vue}',
+    'src/root/*.{ts,vue}',
+    '!src/main.ts', // No need to cover bootstrap file
+  ],
   coveragePathIgnorePatterns: [
     "/node_modules/",
     "/.*\\.vue$"
