@@ -5,11 +5,11 @@ import App from "./root/App.vue";
 import router from "./router";
 import store from "./store";
 
-Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
+Vue.config.productionTip = false;
 
 new Vue({
   router,
   store,
-  render: (h) => h(App)
+  render: h => h(App)
 }).$mount("#app");
